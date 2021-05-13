@@ -1,0 +1,104 @@
+.centeritems{
+    text-align: center;
+    
+}
+
+.horizontalaccordion>ul{
+    margin-top: 50px;
+    margin-left: 350px;
+    padding: 0; 
+    list-style: none;
+    height: 480px;
+}
+
+.horizontalaccordion>ul>li{
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 280px;
+    background-color: lightblue;
+    -moz-transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+}
+
+.horizontalaccordion>ul>li>h3{
+    display:block;
+    float:left;
+    margin: 0;
+    padding:10px;
+    height:19px;
+    width:280px;
+    border-left:#f0f0f0 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    text-transform:uppercase;
+    color: #000;
+    background:#cccccc;
+    white-space:nowrap;
+    -moz-transform: rotate(90.0deg) translate(-40px,0px);  
+    -moz-transform-origin: 0 100%;
+    -o-transform: rotate(90.0deg) translate(-40px,0px);  /* Opera 10.5 */
+    -o-transform-origin: 0 100%;
+    -webkit-transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    -webkit-transform-origin: 0 100%;
+    transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    transform-origin: 0 100%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)
+            progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)"
+                "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc)"; /* IE8 */
+    background: -moz-linear-gradient( top, #999999, #cccccc);
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#cccccc));
+
+}
+
+.horizontalaccordion>ul>li>div 
+{
+    display:none;
+    float:left;
+	overflow: auto;
+    position:relative;
+    top:-40px;
+    left:10px;
+    *top:0px;       
+    *left:0px;      
+    margin:0;
+    width:520px;
+    height:250px;
+    padding:10px;
+}
+
+.horizontalaccordion>ul>li:hover 
+{
+    width: 520px;
+    overflow: hidden;
+}
+
+.horizontalaccordion>ul>li:hover>div 
+{
+
+    display:block;
+}
+
+
+.imgindex{
+    max-width: 500px;
+    border: 10px dashed lightblue ;
+    border-radius: 5px;
+}
+
+.imginternal{
+    width: 450px;
+    height: 300px;
+}
+
+.inputstyle{
+    border-radius: 5px;
+    border: 2px solid lightblue ;
+    padding: 10px 100px;
+    margin: 1%;
+}
